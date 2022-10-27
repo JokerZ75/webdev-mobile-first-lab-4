@@ -89,9 +89,6 @@ input[type="submit"] {
   padding: 15px;
 }
 
-.burger {
-  display: none;
-}
 .burger > .line {
   width: 35px;
   height: 5px;
@@ -100,6 +97,6 @@ input[type="submit"] {
 }
 
 nav {
-  overflow: auto;
+  overflow: hidden;
   transition: height 0.5s;
 }
