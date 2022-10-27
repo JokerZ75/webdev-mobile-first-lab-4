@@ -36,7 +36,7 @@ nav ul li {
 nav li:first-child {
   border-left: none;
 }
-main{
+main {
   display: flex;
 }
 .section {
@@ -44,8 +44,8 @@ main{
   padding: 0 10px 10px 0;
 }
 .left-float {
-  float:left;
-  padding:0 10px 10px 0;
+  float: left;
+  padding: 0 10px 10px 0;
 }
 .sidebar {
   flex: 0 1 200px;
@@ -73,3 +73,22 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 /* Form Styling Needs Adding */
+form {
+  width: 50%;
+  margin: auto;
+}
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
